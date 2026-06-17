@@ -3,12 +3,8 @@
   This file is displayed on https://github.com/yunshu-studio
 -->
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:7C3AED&height=145&section=header&text=Yunshu%20Studio&fontColor=FFFFFF&fontSize=44&fontAlignY=35&desc=Trustworthy%20AI%20Engineering&descSize=16&descAlignY=60" alt="Yunshu Studio Banner" />
-</p>
-
 <div align="center">
-  <img src="../img/logo.png" alt="湘潭云枢科技有限责任公司 Logo" width="320" />
+  <img src="../img/logo.png" alt="湘潭云枢科技有限责任公司 Logo" width="280" />
 
   <h1>湘潭云枢科技有限责任公司</h1>
 
@@ -24,108 +20,154 @@
   </p>
 
   <p>
-    <img alt="Trustworthy AI" src="https://img.shields.io/badge/Trustworthy%20AI-可信智能-0EA5E9" />
-    <img alt="RAG" src="https://img.shields.io/badge/RAG-知识增强-10B981" />
-    <img alt="Agent" src="https://img.shields.io/badge/Agent-业务智能-8B5CF6" />
-    <img alt="Private Deployment" src="https://img.shields.io/badge/Private%20Deployment-私有化部署-F97316" />
-    <img alt="Engineering" src="https://img.shields.io/badge/Engineering-工程交付-111827" />
+    <img alt="Trustworthy AI" src="https://img.shields.io/badge/Trustworthy%20AI-可信智能-blue" />
+    <img alt="RAG" src="https://img.shields.io/badge/RAG-知识增强-green" />
+    <img alt="LLM Apps" src="https://img.shields.io/badge/LLM%20Apps-智能应用-purple" />
+    <img alt="Private Deployment" src="https://img.shields.io/badge/Private%20Deployment-私有化部署-orange" />
+    <img alt="Engineering" src="https://img.shields.io/badge/Engineering-工程交付-black" />
   </p>
 </div>
 
 ---
 
-```txt
-> boot yunshu-studio --mode=trustworthy-ai
+<table>
+  <tr>
+    <td width="58%" valign="top">
+      <h2>👋 你好，这里是云枢科技</h2>
+      <p>
+        我们是一家从真实场景出发的可信智能技术公司，关注大模型进入学校、企业、科研、招投标和政务服务流程后的可靠落地。
+      </p>
+      <p>
+        我们相信，AI 不应该只是“会聊天”，更应该能进入业务流程、理解专业知识、遵守权限边界、给出可靠证据，并在不确定时保持克制。
+      </p>
+      <blockquote>
+        <strong>模型能力 + 业务知识 + 工程系统 + 可信机制</strong><br />
+        是我们构建智能系统的基本路线。
+      </blockquote>
+    </td>
+    <td width="42%" valign="top">
+      <h3>🧭 我们关心什么？</h3>
+      <p>
+        <kbd>更稳</kbd>
+        <kbd>更准</kbd>
+        <kbd>更安全</kbd>
+        <kbd>可私有化</kbd>
+        <kbd>可追溯</kbd>
+        <kbd>可交付</kbd>
+      </p>
+      <p>
+        当 AI 从演示走向生产环境，真正的挑战不只是“回答得像不像”，而是它能否被验证、被控制、被集成、被长期维护。
+      </p>
+    </td>
+  </tr>
+</table>
 
-[01] SCENE       Real workflows before model selection
-[02] KNOWLEDGE   Domain knowledge + RAG + permission-aware data
-[03] REASONING   LLM / Agent / structured output
-[04] VERIFY      Evidence path / guardrails / fail-closed
-[05] DELIVERY    Private deployment / SaaS / long-term operation
-```
+---
 
-## 👋 你好，这里是云枢科技
+## 🚀 我们正在构建
 
-我们是一家从真实场景出发的可信智能技术公司，关注大模型进入学校、企业、科研、招投标和政务服务流程后的可靠落地。
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎓 AI 辅导员</h3>
+      <p>
+        面向高校学生服务与辅导员工作流的智能助手，覆盖学生问答、事务提醒、信息收集、风险预警、通知触达、请假与奖助等场景。
+      </p>
+      <sub><strong>关键词：</strong>高校治理 · 学生服务 · 辅导员减负 · 风险预警</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧪 CorrectKV / 可信推理基础设施</h3>
+      <p>
+        围绕结构化生成、KV Cache 复用、字段级验证、证据路径和局部修复，探索更稳定的大模型推理与输出控制机制。
+      </p>
+      <sub><strong>关键词：</strong>KV Cache · 结构化输出 · Verifier · Targeted Recompute</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛡️ AI 可信评测与安全护栏</h3>
+      <p>
+        为垂类大模型、智能体和内容生成系统提供上线前体检：证据一致性、权限边界、幻觉风险、越权行为、失败回退等。
+      </p>
+      <sub><strong>关键词：</strong>可信评测 · 权限边界 · 幻觉检测 · Fail-Closed</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📄 云枢标盾 BidGuard</h3>
+      <p>
+        面向招投标场景的防废标工具，关注招标文件检测、投标材料合规自查、评标报告核验与围串标风险识别。
+      </p>
+      <sub><strong>关键词：</strong>招投标合规 · 防废标 · 文件检测 · 风险识别</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧩 垂类知识库与私有化部署</h3>
+      <p>
+        面向高校、科研院所、企业与政务服务场景，提供 RAG 知识库、轻量微调、权限隔离、多租户系统和私有化部署能力。
+      </p>
+      <sub><strong>关键词：</strong>RAG · LoRA · 多租户 · 数据隔离</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏗️ 工程交付与平台化能力</h3>
+      <p>
+        从原型验证到系统上线，关注需求拆解、服务治理、权限模型、数据流转、部署运维和长期迭代，让 AI 能真正进入业务现场。
+      </p>
+      <sub><strong>关键词：</strong>微服务 · SaaS · 私有化 · 交付闭环</sub>
+    </td>
+  </tr>
+</table>
 
-我们相信，AI 不应该只是“会聊天”，更应该能进入业务流程、理解专业知识、遵守权限边界、给出可靠证据，并在不确定时保持克制。
+---
 
-> **模型能力 + 业务知识 + 工程系统 + 可信机制**  
-> 是我们构建智能系统的基本路线。
+## 🧭 我们的工程原则
 
-## 🧠 系统路线
+<table>
+  <tr>
+    <td width="20%" align="center"><strong>场景先于模型</strong></td>
+    <td width="20%" align="center"><strong>证据先于答案</strong></td>
+    <td width="20%" align="center"><strong>边界先于能力</strong></td>
+    <td width="20%" align="center"><strong>交付先于炫技</strong></td>
+    <td width="20%" align="center"><strong>失败也要可控</strong></td>
+  </tr>
+  <tr>
+    <td valign="top">先理解真实业务，再选择技术路线。</td>
+    <td valign="top">能追溯来源，才谈得上可信。</td>
+    <td valign="top">权限、数据隔离和安全策略必须先设计。</td>
+    <td valign="top">Demo 可以惊艳，系统必须稳定。</td>
+    <td valign="top">不确定时宁可回退，也不假装正确。</td>
+  </tr>
+</table>
 
-```mermaid
-flowchart LR
-  A[真实业务场景] --> B[垂类知识库 / RAG]
-  B --> C[LLM / Agent / 结构化输出]
-  C --> D[Verifier / Guardrails]
-  D --> E[私有化部署 / SaaS]
-  D --> F[局部修复 / 失败回退]
-```
+---
 
-## 🚀 Mission Modules
+## 🛠️ 技术方向
 
-### `01` 🎓 AI 辅导员
-面向高校学生服务与辅导员工作流的智能助手，覆盖学生问答、事务提醒、信息收集、风险预警、通知触达、请假与奖助等场景。  
-`高校治理` `学生服务` `辅导员减负` `风险预警`
-
-### `02` 🧪 CorrectKV / 可信推理基础设施
-围绕结构化生成、KV Cache 复用、字段级验证、证据路径和局部修复，探索更稳定的大模型推理与输出控制机制。  
-`KV Cache` `Structured Output` `Verifier` `Targeted Recompute`
-
-### `03` 🛡️ AI 可信评测与安全护栏
-为垂类大模型、智能体和内容生成系统提供上线前体检，关注证据一致性、权限边界、幻觉风险、越权行为与失败回退。  
-`可信评测` `权限边界` `幻觉检测` `Fail-Closed`
-
-### `04` 📄 云枢标盾 BidGuard
-面向招投标场景的防废标工具，关注招标文件检测、投标材料合规自查、评标报告核验与围串标风险识别。  
-`招投标合规` `防废标` `文件检测` `风险识别`
-
-### `05` 🧩 垂类知识库与私有化部署
-面向高校、科研院所、企业与政务服务场景，提供 RAG 知识库、轻量微调、权限隔离、多租户系统和私有化部署能力。  
-`RAG` `LoRA` `多租户` `数据隔离`
-
-### `06` 🏗️ 工程交付与平台化能力
-从原型验证到系统上线，关注需求拆解、服务治理、权限模型、数据流转、部署运维和长期迭代，让 AI 能真正进入业务现场。  
-`微服务` `SaaS` `私有化` `交付闭环`
-
-## 🧭 Engineering Principles
-
-- `SCENE_FIRST`：先理解真实业务，再选择技术路线。
-- `EVIDENCE_FIRST`：能追溯来源，才谈得上可信。
-- `BOUNDARY_FIRST`：权限、数据隔离和安全策略必须先设计。
-- `DELIVERY_FIRST`：Demo 可以惊艳，系统必须稳定。
-- `CONTROLLED_FAILURE`：不确定时宁可回退，也不假装正确。
-
-## 🛠️ Tech Radar
-
-```txt
-yunshu-stack
-├─ ai-core
-│  ├─ LLM
-│  ├─ RAG
-│  ├─ Agent
-│  └─ LoRA / SFT
-│
-├─ backend
-│  ├─ Kotlin + Spring Boot
-│  ├─ Python
-│  ├─ Go
-│  └─ Microservices
-│
-├─ data-infra
-│  ├─ PostgreSQL / Redis
-│  ├─ MinIO
-│  ├─ OpenSearch / Elasticsearch
-│  └─ Docker / Nacos / RabbitMQ
-│
-└─ trust-safety
-   ├─ Permission Isolation
-   ├─ Content Safety
-   ├─ Structured Output
-   └─ Trustworthy Evaluation
-```
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧠 AI Stack</h3>
+      <p><code>LLM</code> <code>RAG</code> <code>Agent</code> <code>LoRA / SFT</code></p>
+      <p>围绕知识增强、智能体编排、结构化输出与轻量微调，构建垂类智能能力。</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚙️ Backend</h3>
+      <p><code>Kotlin + Spring Boot</code> <code>Python</code> <code>Go</code> <code>微服务</code></p>
+      <p>以工程稳定性、服务拆分、权限模型和长期维护为核心，支撑业务系统落地。</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🗄️ Data & Infra</h3>
+      <p><code>PostgreSQL / Redis</code> <code>MinIO</code> <code>OpenSearch / Elasticsearch</code> <code>Docker / Nacos / RabbitMQ</code></p>
+      <p>覆盖数据存储、对象存储、检索服务、服务注册、消息队列与容器化部署。</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛡️ Trust & Safety</h3>
+      <p><code>权限隔离</code> <code>内容安全</code> <code>结构化输出</code> <code>可信评测</code></p>
+      <p>把可追溯、可验证、可回退作为智能系统进入真实场景的基础能力。</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
